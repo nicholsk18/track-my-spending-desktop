@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets LinguistTools REQUIRED)
 
-set(TS_FILES track-my-spending-desktop_en_US.ts src/main.cpp src/headers/WindowSetup.h src/WindowSetup.cpp)
+set(TS_FILES track-my-spending-desktop_en_US.ts src/main.cpp src/WindowSetup.h src/WindowSetup.cpp src/components/MainLayout.cpp src/components/MainLayout.cpp src/components/MainLayout.h)
 
 add_executable(track-my-spending-desktop
         src/main.cpp

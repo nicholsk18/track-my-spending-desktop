@@ -3,12 +3,12 @@
 //
 
 #include <QtWidgets>
-#include <src/headers/WindowSetup.h>
+#include <src/WindowSetup.h>
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    new WindowSetup(850, 350);
+    new WindowSetup("Finance Manager", 1150, 750);
 
 
     return app.exec();

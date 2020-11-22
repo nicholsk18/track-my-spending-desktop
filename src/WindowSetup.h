@@ -11,11 +11,12 @@ class WindowSetup
 {
 private:
     QWidget window;
+    const char* appName;
     int width;
     int height;
 
 public:
-    WindowSetup(int width, int height);
+    WindowSetup(const char* name, int width, int height);
     ~WindowSetup();
 };
 

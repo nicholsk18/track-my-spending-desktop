@@ -1,0 +1,14 @@
+//
+// Created by knichols on 11/21/20.
+//
+
+#ifndef TRACK_MY_SPENDING_DESKTOP_MAINLAYOUT_H
+#define TRACK_MY_SPENDING_DESKTOP_MAINLAYOUT_H
+
+
+class MainLayout {
+
+};
+
+
+#endif //TRACK_MY_SPENDING_DESKTOP_MAINLAYOUT_H
