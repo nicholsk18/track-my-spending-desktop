@@ -6,6 +6,7 @@
 #define TRACK_MY_SPENDING_DESKTOP_WINDOWSETUP_H
 
 #include <QtWidgets>
+#include <src/components/MainLayout.h>
 
 class WindowSetup
 {

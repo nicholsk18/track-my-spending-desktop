@@ -11,4 +11,8 @@ WindowSetup::WindowSetup(const char* name, int width, int height) : appName(name
     window.setWindowTitle(
             QApplication::translate("toplevel", appName)
     );
+
+    MainLayout mainLayout;
+
+    window.setLayout(mainLayout.getLayout());
 }
